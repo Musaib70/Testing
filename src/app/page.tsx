@@ -38,14 +38,6 @@ const page = () => {
 
 
 
-
-
-
-
-
-
-
-
   <div className=' flex flex-wrap justify-between'>
     <div className= ' items-center text-gray-800 bg-slate-100 font-light text-md felx-1 justify-center mx-2 my-2 px-6 py-6 rounded-xl w-64 ' >
 
@@ -208,6 +200,26 @@ const page = () => {
   </div>
   <div className='  rounded-full bg-blue-600 text-white mx-4 my-4 px-4 py-4'>
   <button> <Link href={"/sequential"}>Sequential</Link> </button>
+  </div>
+</div>
+
+<div className='flex justify-center font-bold'>
+ 
+  <div className='  rounded-full bg-blue-500 text-white mx-4 my-4 px-4 py-4'>
+  <button> <Link href={"/serverStatic"} > Server Static </Link></button>
+  </div>
+  <div className='  rounded-full bg-blue-500 text-white mx-4 my-4 px-4 py-4'>
+  <button>
+  <Link href="/serverDynamic">Server Dynamic </Link></button> 
+  </div>
+  <div className='  rounded-full bg-blue-500 text-white mx-4 my-4 px-4 py-4'>
+  <button> <Link href={"/clientSide"}>Client Side</Link> </button>
+  </div>
+  <div className='  rounded-full bg-blue-500 text-white mx-4 my-4 px-4 py-4'>
+  <button> <Link href={"/parallelserver"}>Parallel Server</Link> </button>
+  </div>
+  <div className='  rounded-full bg-blue-500 text-white mx-4 my-4 px-4 py-4'>
+  <button> <Link href={"/sequentialserver"}>Sequential Server</Link> </button>
   </div>
 </div>
          </main>
