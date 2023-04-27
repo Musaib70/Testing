@@ -15,12 +15,12 @@ const page = () => {
     <>
     <main>
 
-        <div className='flex bg-white items-center '>
+        <div className='flex items-center '>
           <div className='m-8'>
               <img src="https://res.cloudinary.com/thirus/image/upload/v1628614672/logos/circleai_dm9slt.png"
                alt="loading" 
-               height = {600}
-               width = {150} />
+               height = {50}
+               width = {130} />
           </div>
 
           <div className=' flex  m-8 flex-1 sm:justify-center gap-10'>
@@ -221,6 +221,19 @@ const page = () => {
   <div className='  rounded-full bg-blue-500 text-white mx-4 my-4 px-4 py-4'>
   <button> <Link href={"/sequentialserver"}>Sequential Server</Link> </button>
   </div>
+</div>
+
+
+<div className='flex justify-center font-bold'>
+ 
+  <div className='  rounded-full bg-blue-500 text-white mx-4 my-4 px-4 py-4'>
+  <button> <Link href={"/singleblog"} > Single Blog </Link></button>
+  </div>
+  <div className='  rounded-full bg-blue-500 text-white mx-4 my-4 px-4 py-4'>
+  <button>
+  <Link href="/multipleblogs">Multiple Blogs </Link></button> 
+  </div>
+
 </div>
          </main>
     </>
